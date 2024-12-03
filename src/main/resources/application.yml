@@ -1,0 +1,14 @@
+server:
+  port: 5002
+
+spring:
+  application:
+    name : content-service
+  config:
+    import: optional:configserver:http://localhost:8888
+
+
+
+
+
+
